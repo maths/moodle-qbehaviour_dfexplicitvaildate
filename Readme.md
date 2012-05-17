@@ -8,8 +8,8 @@ of their response. This question behaviour was created for use with STACK
 https://github.com/sangwinc/moodle-qtype_stack/
 
 To install using git, type this command in the root of your Moodle install
-    git clone git://github.com/timhunt/moodle-qbehaviour_dfexplicitvaildate.git question/behaviour/dfexplicitvaildate
-    echo question/behaviour/dfexplicitvaildate >> .git/info/exclude
+<pre><code>    git clone git://github.com/timhunt/moodle-qbehaviour_dfexplicitvaildate.git question/behaviour/dfexplicitvaildate
+    echo question/behaviour/dfexplicitvaildate >> .git/info/exclude</code></pre>
 
 Then download the zip from
     https://github.com/timhunt/moodle-qbehaviour_opaque/zipball/master

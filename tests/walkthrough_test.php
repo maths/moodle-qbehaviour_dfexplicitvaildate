@@ -37,7 +37,7 @@ require_once(dirname(__FILE__) . '/../../../engine/tests/helpers.php');
  * @copyright  2012 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class qbehaviour_deferredcbm_walkthrough_test extends qbehaviour_walkthrough_test_base {
+class qbehaviour_dfexplicitvaildate_walkthrough_test extends qbehaviour_walkthrough_test_base {
     public function test_dummy() {
         // At the moment, there are extensive tests for this behaviour in
         // qtype_stack, and no other qtypes use this behaviour. Therefore, we

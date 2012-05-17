@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2012051500;
+$plugin->version   = 2012051600;
 $plugin->requires  = 2012020200;
 $plugin->cron      = 0;
 $plugin->component = 'qbehaviour_dfexplicitvaildate';

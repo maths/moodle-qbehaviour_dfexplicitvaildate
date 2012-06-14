@@ -43,6 +43,7 @@ class qbehaviour_dfexplicitvaildate_walkthrough_test extends qbehaviour_walkthro
         // qtype_stack, and no other qtypes use this behaviour. Therefore, we
         // don't have any real tests here.
         // See https://github.com/sangwinc/moodle-qtype_stack/blob/master/tests/walkthrough_deferred_feedback_test.php
+        // for the tests that exist.
         $this->assertTrue(true);
     }
 }

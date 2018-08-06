@@ -23,4 +23,4 @@
  */
 
 $string['pluginname'] = 'Deferred feedback with explicit validation';
-$string['privacy:metadata'] = 'The Adaptive mode (multi-part questions) plugin does not store any personal data.';
+$string['privacy:metadata'] = 'The deferred feedback with explicit validation mode (multi-part questions) plugin does not store any personal data.';

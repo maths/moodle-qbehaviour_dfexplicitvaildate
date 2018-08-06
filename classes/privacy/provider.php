@@ -13,14 +13,29 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-
 /**
- * Strings for component 'qbehaviour_dfexplicitvaildate', language 'en'.
+ * Privacy Subsystem implementation for qbehaviour_dfexplicitvaildate
  *
  * @package    qbehaviour_dfexplicitvaildate
- * @copyright  2012 The Open University
+ * @copyright  2018 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-$string['pluginname'] = 'Deferred feedback with explicit validation';
-$string['privacy:metadata'] = 'The Adaptive mode (multi-part questions) plugin does not store any personal data.';
+namespace qbehaviour_dfexplicitvaildate\privacy;
+defined('MOODLE_INTERNAL') || die();
+/**
+ * Privacy Subsystem for qbehaviour_dfexplicitvaildate implementing null_provider.
+ *
+ * @copyright  2018 The Open University
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+class provider implements \core_privacy\local\metadata\null_provider {
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return  string
+     */
+    public static function get_reason() : string {
+        return 'privacy:metadata';
+    }
+}

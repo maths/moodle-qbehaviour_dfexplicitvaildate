@@ -1,0 +1,4 @@
+/* Hide the Check button */
+body.jsenabled .que.dfexplicitvaildate button.submit {
+    display: none;
+}
